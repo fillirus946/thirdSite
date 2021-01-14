@@ -11,176 +11,155 @@
     right: 0;
     z-index: 99;
     border-bottom: 1px solid rgb(218, 216, 216);
-    .container{
-        
-        width: 1152px;
-        margin: 0 auto;
-        padding: 0px 15px;
-        .logo{
-        }
-            .header_inner{
-                display: flex;
-                text-align: center;
-                justify-content:space-between;
-                align-items: center;
-                min-width: 1000px;
-            }
-            .nav{
-                padding: 15px;
-                display: flex;
-                justify-content: space-between;
-                .list{
-                    padding: 15px;
-                    border-bottom: 1px solid rgb(255, 255, 255);
-                        .list_item_link{
-                            text-decoration: none;
-                        }
-                        .list_item_link:hover{
-                        color:#059bff
-                        } 
-                    }
-                    .list:hover{
-                        border-bottom: 1px solid #059bff;
-                    }
-                }
-            }
-        }
-    .main{
-        margin-top: 80px;
-        .container{
-            width: 1152px;
-            margin: 0 auto;
-            padding: 0px 15px;
-            
-            .main_inner_header{
-                margin: 0 auto;
-                display: flex;
-                padding: 50px;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                        .main_header{
-                            font-size: 50px;
-                            padding: 30px 0px;
-                        }
-                        .main_search{
-                        
-                            width: 100%;
-                            display: flex;
-                            justify-content: space-between;
-                            line-height: px;
-                            .main_search_categoties{
-                                width: 248px;
-                                border: 2px solid #d9d9d9;
-                                border-radius: 4px;
-                                padding: 0px 10px;
-                                outline: none; 
-                            }
-                            .main_search_categoties:hover{
-                                border: 2px solid #b2c9f1;
-                            }
-                            .main_search_podcast{
-                                border: 2px solid #d9d9d9;
-                                border-radius: 4px;
-                                padding: 0px 10px;
-                                outline: none;
-                                width: 365px;
-                            }
-                            .main_search_podcast:hover{
-                                border: 2px solid #b2c9f1;
-                            }
-                            
-                        }
-                            }
-            .main_content_inner{
-                font-weight: 500;
-                display: flex;
-                flex-direction: column;
-                    .top_content .cantmiss_content{
-                        .title{
-                            padding: 8px;
-                            font-size: 22px;
-                            font-weight: 500;
-                        }
-                        .wrapper, .cantmiss_wrapper{
-                            margin-top: 10px;
-                            display: flex;
-                            flex-direction: row;
-                            max-width: 1152px;
-                            flex-flow: wrap;
-                            .item_card{
-                                    font-weight: 400;
-                                    display: flex;
-                                    margin: 8px;
-                                    align-items: flex-start;
-                                    flex-wrap: wrap;
-                                    height: 300px;
-                                    width: 204px;
-                                    .item_card_img{
-                                        .img_item{
-                                            max-width: 204px;
-                                            max-height: 204px;
-                                        }
-                                        .img_item:hover{
-                                            transition: opacity 124ms linear, transform 124ms linear;
-                                            opacity: 0.3;
-                                        }
-                                    }
-                                    .item_card_link{
-                                        text-decoration: none;
-                                        color: black;
-                                        font-size: 14px;
-                                    }
-                                }
+}
+.container{
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.logo{
+}
 
-                        }
-                    }
-            // .cantmiss{
-            //     .cantmiss_wrapper{
-            //         display: flex;
-            //         flex-direction: row;
-            //         .cantmiss_item_card{
-            //             font-weight: 400;
-            //             display: flex;
-            //             margin: 8px;
-            //             align-items: flex-start;
-            //             flex-wrap: wrap;
-            //             height: 300px;
-            //             width: 204px;
-            //             .tocantmiss_item_card_img{
-            //                 .cantmiss_img_item{
-                                
-            //                     max-width: 204px;
-            //                     max-height: 204px;
-                                   
-            //                 }
-            //                 .cantmiss_item:hover{
-            //                     transition: opacity 124ms linear, transform 124ms linear;
-            //                     opacity: 0.3;
-            //                 }
-            //             }
-            //             .cantmiss_item_card_link{
-            //                 text-decoration: none;
-            //                 color: black;
-            //                 font-size: 14px;
-            //             }     
-            //         }
-            //     };
-            // }
-            .latest{
-                .latest_wrapper{
-                    display: flex;
-                    flex-direction: row;
-                    
-                    .latest_item{        
-                        height: 204px;
-                        width: 204px;
-                        display: flex;
-                        justify-content: center;      
-                            }
-                        }
-                    }
-            }
-        
+.header_inner{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    min-width: 1000px;
+}
+
+.nav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list{
+    padding: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.list_item_link{
+    text-decoration: none;
+}
+
+.list_item_link:hover{
+color:#059bff
+} 
+
+
+.list:hover{
+    border-bottom: 1px solid #059bff;
+}
+
+.main{
+        margin-top: 80px;
     }
+
+.container{
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.main_inner_header{
+    margin: 0 auto;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header{
+    font-size: 50px;
+    padding: 30px 0px;
+}
+
+
+.main_search{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: px;
+}
+
+.main_search_categoties{
+    width: 248px;
+    border: 2px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 0px 10px;
+    outline: none; 
+}
+
+.main_search_categoties:hover{
+    border: 2px solid #b2c9f1;
+}
+
+.main_search_podcast{
+    border: 2px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 0px 10px;
+    outline: none;
+    width: 365px;
+}
+
+.main_search_podcast:hover{
+    border: 2px solid #b2c9f1;
+}
+
+.main_content_container{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.cards1{
+    .title{
+        padding: 8px;
+        font-size: 22px;
+        font-weight: 500;
+        }
+        .wrapper{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            max-width: 1152px;
+            flex-flow: wrap;
+        
+    
+}
+
+.item_card{
+    font-weight: 400;
+    display: flex;
+    margin: 8px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 204px;
+}
+
+.item_card_img{
+
+}
+
+.img_item{
+max-width: 204px;
+max-height: 204px;
+}
+
+.img_item:hover{
+transition: opacity 124ms linear, transform 124ms linear;
+opacity: 0.3;
+}
+
+
+.item_card_link{
+text-decoration: none;
+color: black;
+font-size: 14px;
 }
